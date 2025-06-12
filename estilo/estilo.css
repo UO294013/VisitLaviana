@@ -1,0 +1,438 @@
+/* Vicente Megido Garcia (UO294013) */
+
+/* 
+    Estilos aplicados a la página web en este fichero CSS:
+    - Tamaños de fuente, colores, decoraciones, bordes, sombras y otros estilos
+      y propiedades de los elementos HTML.
+*/
+
+/* Reglas comunes + gastronomía.html */
+
+/* Especificidad del selector: 001 */
+html {
+    font-family: 'Tahoma', 'Futura', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Especificidad del selector: 001 */
+header {
+    background-color: #2050a0;
+    color: #ffffff;
+}
+
+/* Especificidad del selector: 003 */
+header>h1>a {
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: #ffffff; /* Advertencia controlada: Color de fondo (background) heredado de header */
+}
+
+/* Especificidad del selector: 002 */
+nav>a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff; /* Advertencia controlada: Color de fondo (background) heredado de header */
+}
+
+/* Especificidad del selector: 012 */
+nav>a:hover {
+    text-decoration: underline;
+}
+
+/* Especificidad del selector: 001 */
+body {
+    background-color: #ffffff; /* Advertencia controlada: Color de fuente heredado de html */
+}
+
+/* Especificidad del selector: 002 */
+body>p {
+    font-size: 0.9rem;
+}
+
+/* Especificidad del selector: 001 */
+a {
+    text-decoration: none;
+}
+
+/* Especificidad del selector: 002 */
+section a {
+    text-decoration: underline;
+}
+
+/* Especificidad del selector: 012 */
+section a:hover {
+    color: #0e0074; /* Advertencia controlada: Color de fondo (background) heredado de body */
+}
+
+/* Especificidad del selector: 012 */
+section a:focus {
+    color:  #1d5500; /* Advertencia controlada: Color de fondo (background) heredado de body */
+}
+
+/* Especificidad del selector: 012 */
+section a:active {
+    color: #630b0b; /* Advertencia controlada: Color de fondo (background) heredado de body */
+}   
+
+/* Especificidad del selector: 002 */
+picture img {
+    box-shadow: 0 0.5rem 0.5rem #000000a0;
+}
+
+/* Especificidad del selector: 002 */
+section>img {
+    box-shadow: 0 0.5rem 0.5rem #000000a0;
+}
+
+/* Especificidad del selector: 001 */
+video {
+    box-shadow: 0 0.5rem 0.5rem #000000a0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+}
+
+/* Especificidad del selector: 001 */
+ul {
+    list-style-type: square;
+}
+
+/* Especificidad del selector: 001 */
+ol {
+    list-style-type: decimal;
+}
+
+/* Especificidad del selector: 001 / 001 */
+ul, ol {
+    border-left: 0.2rem solid #0e0074;
+}
+
+/* Especificidad del selector: 011 */
+li:hover {
+    background-color: #e9e7ed;
+    color: #000000;
+}
+
+/* Especificidad del selector: 003 */
+ol>li>ul {
+    list-style-type: circle;
+}
+
+/* Especificidad del selector: 001 */
+dl {
+    border: 0.1rem solid #000000;
+    border-radius: 0.3rem;
+    background-color: #e9e7ed; /* Advertencia controlada: Color de fuente heredado de html */
+}
+
+/* Especificidad del selector: 001 */
+dt {
+    font-weight: bold;
+}
+
+/* Especificidad del selector: 001 */
+table {
+    border: 0.1rem solid #000000;
+    background-color: #e9e7ed; /* Advertencia controlada: Color de fuente heredado de html */
+}
+
+/* Especificidad del selector: 001 */
+caption {
+    font-weight: bold;
+    background-color: #2050a0;
+    color: #ffffff;
+}
+
+/* Especificidad del selector: 001 / 001 / 001 */
+th, td, tr {
+    border: 0.1rem solid #000000;
+}
+
+/* Especificidad del selector: 011 / 011 */
+td:hover, tr:hover {
+    background-color: #ffffff; /* Advertencia controlada: Color de fuente heredado de html (Se repite la advertencia para los dos selectores) */
+}
+
+/* Especificidad del selector: 010 */
+.active {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/* Carrusel (index.html) */
+
+/* Especificidad del selector: 023 */
+body>main:nth-child(2)>section:nth-of-type(1) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Especificidad del selector: 024 */
+body>main:nth-child(2)>section:nth-of-type(1) button {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Meteorología */
+
+/* Especificidad del selector: 001 */
+article {  
+    background-color: #2050a0;
+    color: #ffffff;
+    border: 0.2em solid #000000;
+    border-radius: 0.2em;
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.8);
+}
+
+/* Especificidad del selector: 003 */
+section article img {
+    background-color: #cfd0a6;
+    border: 0.2em solid #000000;
+}
+
+/* Juego */
+
+/* Especificidad del selector: 001 */
+button {
+    font-size: 1rem;
+    background-color: #ffffff; /* Advertencia controlada: Color de fuente heredado de html */
+    border: 0.2rem solid #000000;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+/* Especificidad del selector: 002 */
+dialog button {
+    color: #ffffff;
+    border-radius: 0.1rem;
+}
+
+/* Rutas */
+
+/* Especificidad del selector: 001 */
+fieldset {
+    font-weight: normal;
+}
+
+/* Especificidad del selector: 012 */
+fieldset~p:nth-of-type(1) {
+    font-weight: bold;
+}
+
+/* Especificidad del selector: 004 */
+main input~section h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Especificidad del selector: 001 */
+input {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+/* CONTINUAR */
+
+
+/* Especificidad del selector: 002 */
+div~section {
+    border-radius: 1rem;
+}
+
+/* Especificidad del selector: 003 */
+div~section img {
+    transition: all 0.5s;
+    border-radius: 0.5rem;
+    box-shadow: none;
+}
+
+/* Especificidad del selector: 001 */
+menu {
+    background-color: #ffffff; /* Advertencia controlada: Color de fuente heredado de html */
+    border: 0.2rem solid #000000;
+    border-radius: 0.2rem;
+    list-style-type: none;
+}
+
+/* Especificidad del selector: 002 */
+menu li {
+    font-size: 1.1rem;
+}
+
+/* Especificidad del selector: 002 */
+main h2 {
+    font-size: 1.5rem;
+}
+
+/* Especificidad del selector: 004 */
+main button~section figure {
+    border: 0.3rem solid #000000;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 0.5rem #000000a0;
+}
+
+/* Especificidad del selector: 001 */
+footer { 
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.5rem 0.5rem #000000a0;
+    background-color: #e9e7ed; /* Advertencia controlada: Color de fuente heredado de html */
+}
+
+/* Especificidad del selector: 002 */
+main textarea {
+    font-size: 1.3rem;
+    border: 0.2rem solid #000000;
+    border-radius: 0.5rem;
+    resize: none;
+}
+
+/* Especificidad del selector: 002 */
+dialog button {
+    background-color: #2050a0; /* Advertencia controlada: Color de fuente heredado de html */
+}
+
+/* Especificidad del selector: 001 */
+form {
+    background-color: #ffffff; /* Advertencia controlada: Color de fuente heredado de html */
+    border: 0.2rem solid #b60000;
+    border-radius: 0.3rem;
+}
+
+/* 
+    Media queries aplicadas en este fichero CSS:
+    - EXCLUSIVAMENTE adaptaciones al tamaño de fuente.
+*/
+
+/* Portátil L (1440px) */
+@media screen and (max-width: 1440px) {
+
+    /* Especificidad del selector: 001 */
+    main {
+        font-size: 1.0rem; 
+    }
+
+    /* Especificidad del selector: 003 */
+    header>nav>a {
+        font-size: 1.3rem;
+    }
+
+    /* Especificidad del selector: 002 */
+    header>h1 {
+        font-size: 1.8rem;
+    }
+
+    /* Especificidad del selector: 003 */
+    section article h3 {  
+        font-size: 1.2rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    section article p {  
+        font-size: 1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+}
+
+/* Portátil (1024px) */
+@media screen and (max-width: 1024px) {
+
+    /* Especificidad del selector: 001 */
+    main {
+        font-size: 0.9rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    header>nav>a {
+        font-size: 1.0rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 002 */
+    header>h1 {
+        font-size: 1.5rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    section article h3 {  
+        font-size: 1.1em; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    section article p {  
+        font-size: 0.9em; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+}
+
+/* Tablet (768px) */
+@media screen and (max-width: 768px) {
+
+    /* Especificidad del selector: 001 */
+    main {
+        font-size: 0.8rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    main section h2 {
+        font-size: 1.1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    main section button {
+        font-size: 0.9rem;
+    }
+    
+    /* Especificidad del selector: 003 */
+    header>nav>a {
+        font-size: 0.8rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+    
+    /* Especificidad del selector: 002 */
+    header>h1 {
+        font-size: 1.1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    section article h3 {  
+        font-size: 1em; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    section article p {  
+        font-size: 0.8em; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+}
+
+/* Movil L (425px) */
+@media screen and (max-width: 425px) {
+
+    /* Especificidad del selector: 003 */
+    main section h2 {
+        font-size: 1.0rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    main section button {
+        font-size: 0.8rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    /* Especificidad del selector: 003 */
+    header>nav>a {
+        font-size: 0.7rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+    
+    /* Especificidad del selector: 002 */
+    header>h1 {
+        font-size: 1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+}
+
+/* Movil M (375px) */
+@media screen and (max-width: 375px) {
+
+    /* Especificidad del selector: 001 */
+    main {
+        font-size: 0.7rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+}
