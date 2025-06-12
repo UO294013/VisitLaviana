@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="650" viewBox="0 -250 800 650">
+  <polyline points="50,399 50.00,278.00 150.00,278.00 250.00,290.00 350.00,350.00 450.00,350.00 550.00,302.00 650.00,146.00 750.00,50.00 750,399 50,399" style="fill:white;stroke:red;stroke-width:2" />
+  <circle cx="50.00" cy="278.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="56.00" y="270.00" transform="rotate(-80 50.00 278.00)" font-family="Arial" font-size="12" fill="black">Inicio: Ruta urbana: Evolución de Pola de Laviana</text>
+  <circle cx="150.00" cy="278.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="156.00" y="270.00" transform="rotate(-80 150.00 278.00)" font-family="Arial" font-size="12" fill="black">Edificio del antiguo ayuntamiento (Punto de salida)</text>
+  <circle cx="250.00" cy="290.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="256.00" y="282.00" transform="rotate(-80 250.00 290.00)" font-family="Arial" font-size="12" fill="black">Gran Teatro Maxi</text>
+  <circle cx="350.00" cy="350.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="356.00" y="342.00" transform="rotate(-80 350.00 350.00)" font-family="Arial" font-size="12" fill="black">Ayuntamiento de Laviana</text>
+  <circle cx="450.00" cy="350.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="456.00" y="342.00" transform="rotate(-80 450.00 350.00)" font-family="Arial" font-size="12" fill="black">Iglesia de Santa María de la Asunción</text>
+  <circle cx="550.00" cy="302.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="556.00" y="294.00" transform="rotate(-80 550.00 302.00)" font-family="Arial" font-size="12" fill="black">Centro de Innovación y Desarrollo Alto Nalón (CIDAN)</text>
+  <circle cx="650.00" cy="146.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="656.00" y="138.00" transform="rotate(-80 650.00 146.00)" font-family="Arial" font-size="12" fill="black">Plaza de la Pontona: Casa de Cultura y Biblioteca Pública Municipal</text>
+  <circle cx="750.00" cy="50.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="756.00" y="42.00" transform="rotate(-80 750.00 50.00)" font-family="Arial" font-size="12" fill="black">Santuario de La Virgen del Otero</text>
+  <line x1="50" y1="390.00" x2="750" y2="390.00" stroke="blue" stroke-width="1" stroke-dasharray="5,5" />
+</svg>

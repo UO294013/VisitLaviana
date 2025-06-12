@@ -1,0 +1,50 @@
+<!ELEMENT rutas (ruta+)>
+<!ELEMENT ruta (fecha_inicio?, hora_inicio?, agencia, descripcion, personas_recomendadas, lugar_inicio, direccion_inicio, coordenadas_inicio, referencias, hitos)>
+<!-- Atributos escogidos arbitrariamente para cada ruta: nombre, tipo de ruta, medio de transporte, duración y grado de recomendación de la ruta: -->
+<!ATTLIST ruta
+    nombre CDATA #REQUIRED
+    tipo_ruta CDATA #REQUIRED
+    medio_transporte CDATA #REQUIRED
+    duracion CDATA #REQUIRED
+    nivel_recomendacion CDATA #REQUIRED
+>
+<!ELEMENT nombre (#PCDATA)>                 <!-- EJEMPLO: "Ruta de los molinos", "Ruta del oso pardo", ... -->
+<!ELEMENT tipo_ruta (#PCDATA)>              <!-- EJEMPLO: “Arquitectura y monumentos”, “Gastronómica”, “Paisajística”, “Mixta tapas y monumentos”, “Escalada”, “Senderismo”, ... -->
+<!ELEMENT medio_transporte (#PCDATA)>       <!-- EJEMPLO: "A pie", "Bicicleta", ... -->
+<!ELEMENT fecha_inicio (#PCDATA)>           <!-- OPCIONAL --> <!-- EJEMPLO: "10-07-2025", ... -->
+<!ELEMENT hora_inicio (#PCDATA)>            <!-- OPCIONAL --> <!-- EJEMPLO: "10:30:00", ... -->
+<!ELEMENT duracion (#PCDATA)>               <!-- EJEMPLO: "2 horas", "3 días", "1 semana", ... -->
+<!ELEMENT agencia (#PCDATA)>                <!-- EJEMPLO: "Sin agencia", "NaturaTur", ... -->
+<!ELEMENT descripcion (#PCDATA)>            <!-- ELEMENTO QUE CONTIENE TEXTO -->
+<!ELEMENT personas_recomendadas (#PCDATA)>  <!-- EJEMPLO: "Pueden ir niños", "Buena forma física", "Tercera edad", ... -->
+<!ELEMENT lugar_inicio (#PCDATA)>           <!-- EJEMPLO: "Plaza del ayuntamiento", "Estación de autobuses", ... -->
+<!ELEMENT direccion_inicio (#PCDATA)>       <!-- EJEMPLO: "Calle Mayor", "Avenida San Marcos", ... -->
+<!ELEMENT coordenadas_inicio (coordenada)>
+<!ELEMENT coordenada (#PCDATA)>
+<!-- Atributos obligatorios de cada coordenada: longitud, latitud y altitud: -->
+<!ATTLIST coordenada 
+	longitud CDATA #REQUIRED
+    latitud CDATA #REQUIRED
+    altitud CDATA #REQUIRED
+>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>             <!-- EJEMPLO: "https://es.wikipedia.org/wiki/Foncalada", "http://prerromanicoasturiano.es/", ... -->
+<!ELEMENT nivel_recomendacion (#PCDATA)>    <!-- EJEMPLO: "10", "8", "4", ... -->
+<!ELEMENT hitos (hito+)>
+<!ELEMENT hito (descripcion_hito, coordenadas_hito, distancia, fotos_hito, videos_hito?)>
+<!-- Atributos escogidos arbitrariamente para cada hito: únicamente el nombre: -->
+<!ATTLIST hito 
+    nombre_hito CDATA #REQUIRED
+>
+<!ELEMENT nombre_hito (#PCDATA)>
+<!ELEMENT descripcion_hito (#PCDATA)>
+<!ELEMENT coordenadas_hito (coordenada)>
+<!ELEMENT distancia (#PCDATA)>
+<!-- Atributos obligatorios de distancia: unidad: -->
+<!ATTLIST distancia
+    unidad CDATA #REQUIRED
+>
+<!ELEMENT fotos_hito (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT videos_hito (video*)>
+<!ELEMENT video (#PCDATA)>

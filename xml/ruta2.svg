@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="650" viewBox="0 -250 800 650">
+  <polyline points="50,399 50.00,350.00 166.67,239.84 283.33,193.69 400.00,152.76 516.67,97.02 633.33,59.58 750.00,50.00 750,399 50,399" style="fill:white;stroke:red;stroke-width:2" />
+  <circle cx="50.00" cy="350.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="56.00" y="342.00" transform="rotate(-80 50.00 350.00)" font-family="Arial" font-size="12" fill="black">Inicio: Ruta Foces del Raigosu</text>
+  <circle cx="166.67" cy="239.84" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="172.67" y="231.84" transform="rotate(-80 166.67 239.84)" font-family="Arial" font-size="12" fill="black">Zona de descanso en la Foz de Cebellales</text>
+  <circle cx="283.33" cy="193.69" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="289.33" y="185.69" transform="rotate(-80 283.33 193.69)" font-family="Arial" font-size="12" fill="black">Semitúnel de piedra</text>
+  <circle cx="400.00" cy="152.76" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="406.00" y="144.76" transform="rotate(-80 400.00 152.76)" font-family="Arial" font-size="12" fill="black">Mirador sobre las casas del Raigosu</text>
+  <circle cx="516.67" cy="97.02" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="522.67" y="89.02" transform="rotate(-80 516.67 97.02)" font-family="Arial" font-size="12" fill="black">Abrevadero para ganado</text>
+  <circle cx="633.33" cy="59.58" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="639.33" y="51.58" transform="rotate(-80 633.33 59.58)" font-family="Arial" font-size="12" fill="black">Cabañas de la Carba de Los Collaos</text>
+  <circle cx="750.00" cy="50.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="756.00" y="42.00" transform="rotate(-80 750.00 50.00)" font-family="Arial" font-size="12" fill="black">Mirador en Los Collaos</text>
+  <line x1="50" y1="390.00" x2="750" y2="390.00" stroke="blue" stroke-width="1" stroke-dasharray="5,5" />
+</svg>

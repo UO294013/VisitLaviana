@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="lineaRoja">
+      <LineStyle><color>#ff0000ff</color><width>4</width></LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Inicio: Ruta Senda Verde: El Sutu - La Vara</name>
+      <Point>
+        <coordinates>-5.566287,43.247423,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Puente de hierro del Sutu</name>
+      <Point>
+        <coordinates>-5.567169,43.247412,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Fuente Les Sinariegues</name>
+      <Point>
+        <coordinates>-5.569519,43.245197,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Mirador del Cantiquín</name>
+      <Point>
+        <coordinates>-5.572721,43.246342,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Cartel informativo: Senderos del carbón</name>
+      <Point>
+        <coordinates>-5.594737,43.239518,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Banco mirador del Pico de la Vara</name>
+      <Point>
+        <coordinates>-5.595520,43.236037,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Pico de la Vara</name>
+      <Point>
+        <coordinates>-5.595278,43.237023,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Ruta Senda Verde: El Sutu - La Vara</name>
+      <styleUrl>#lineaRoja</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -5.566287,43.247423
+          -5.567169,43.247412
+          -5.569519,43.245197
+          -5.572721,43.246342
+          -5.594737,43.239518
+          -5.595520,43.236037
+          -5.595278,43.237023
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="lineaRoja">
+      <LineStyle><color>#ff0000ff</color><width>4</width></LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Inicio: Ruta Foces del Raigosu</name>
+      <Point>
+        <coordinates>-5.530605,43.202860,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Zona de descanso en la Foz de Cebellales</name>
+      <Point>
+        <coordinates>-5.532799,43.180651,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Semitúnel de piedra</name>
+      <Point>
+        <coordinates>-5.530219,43.177587,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Mirador sobre las casas del Raigosu</name>
+      <Point>
+        <coordinates>-5.527284,43.176189,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Abrevadero para ganado</name>
+      <Point>
+        <coordinates>-5.523808,43.173521,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Cabañas de la Carba de Los Collaos</name>
+      <Point>
+        <coordinates>-5.521102,43.173476,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Mirador en Los Collaos</name>
+      <Point>
+        <coordinates>-5.521140,43.172491,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Ruta Foces del Raigosu</name>
+      <styleUrl>#lineaRoja</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -5.530605,43.202860
+          -5.532799,43.180651
+          -5.530219,43.177587
+          -5.527284,43.176189
+          -5.523808,43.173521
+          -5.521102,43.173476
+          -5.521140,43.172491
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>

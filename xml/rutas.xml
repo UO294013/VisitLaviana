@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta nombre="Ruta Senda Verde: El Sutu - La Vara" tipo_ruta="Pasisajística y de senderismo" medio_transporte="A pie o en bicicleta" duracion="7 horas" nivel_recomendacion="7">
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta poco concurrida, de dificultad moderada por su longitud (16 kilómetros aproximadamente). Se recomienda llevar calzado cómodo. Paisajes muy bonitos, sendas bien cuidadas y buen terreno.</descripcion>
+        <personas_recomendadas>Para gente con buena forma física</personas_recomendadas>
+        <lugar_inicio>Parking de Plaza Fray Ceferino (núcleo de Pola de Laviana)</lugar_inicio>
+        <direccion_inicio>Hacia el puente de hierro del Sutu</direccion_inicio>
+        <coordenadas_inicio>
+            <coordenada longitud="-5.566287" latitud="43.247423" altitud="287"></coordenada> 
+        </coordenadas_inicio>
+        <referencias>
+            <referencia>https://www.ayto-laviana.es/rutas-y-senderismo</referencia>
+            <referencia>https://culturalavianaturismo.blogspot.com/p/el-sutu-la-vara.html</referencia>
+            <referencia>https://es.wikiloc.com/rutas-senderismo/hormiguita-circular-el-sutu-pico-la-vara-asturias-114006348</referencia>
+        </referencias>
+        <hitos>
+            <hito nombre_hito="Puente de hierro del Sutu">
+                <descripcion_hito>Puente de hierro que conecta el corazón de Pola de Laviana con el Polígono del Sutu. Antiguamente era utilizado por los trenes mineros para llevar carbón a la estación de ferrocarril de Langreo</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.567169" latitud="43.247412" altitud="285"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">74</distancia> <!-- Distancia desde la salida -->
+                <fotos_hito>
+                    <foto>multimedia/imagenes/puente_del_sutu.jpg</foto>
+                    <foto>multimedia/imagenes/puente_del_sutu2.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Fuente Les Sinariegues">
+                <descripcion_hito>Pequeña fuente al inicio del trayecto, aún en el Polígono del Sutu y cerca del inicio de la senda</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.569519" latitud="43.245197" altitud="332"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">484.82</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/fuente_les_sinariegues.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Mirador del Cantiquín">
+                <descripcion_hito>Mirador en el Coto Musel con preciosas vistas de Pola de Laviana</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.572721" latitud="43.246342" altitud="424"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">944.79</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/cantiquin.jpg</foto>
+                    <foto>multimedia/imagenes/cantiquin2.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Cartel informativo: Senderos del carbón">
+                <descripcion_hito>Cartel informativo con bancoy buenas vistas</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.594737" latitud="43.239518" altitud="864"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">4429.08</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/senderos_carbon.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Banco mirador del Pico de la Vara">
+                <descripcion_hito>Banco en un descanso a escasos metros de la llegada al Pico de la Vara. Impresionantes vistas del concejo</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.595520" latitud="43.236037" altitud="926"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">461.28</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/banco.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Pico de la Vara">
+                <descripcion_hito>Alto del Pico de la Vara, con una elevación máxima de 949 metros</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.595278" latitud="43.237023" altitud="946"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">128.71</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/pico_la_vara.jpg</foto>
+                </fotos_hito>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta nombre="Ruta Foces del Raigosu" tipo_ruta="Paisajística" medio_transporte="A pie" duracion="4 horas" nivel_recomendacion="9">
+        <fecha_inicio>2025-07-25</fecha_inicio>
+        <hora_inicio>10:00:00</hora_inicio>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta de alto valor turístico y paisajístico, de baja dificultad y con poco desnivel (en torno a 700 metros de subida en 7 kilómetros de trayecto). Comienza en el paraje de Mestres y finaliza en Los Collaos, continuando siempre paralela al Río Raigosu</descripcion>
+        <personas_recomendadas>Se pueden llevar niños</personas_recomendadas>
+        <lugar_inicio>Les Mestres, al oeste de Fombermeja</lugar_inicio>
+        <direccion_inicio>Camino de tierra de Les Mestres</direccion_inicio>
+        <coordenadas_inicio>
+            <coordenada longitud="-5.530605" latitud="43.202860" altitud="458"></coordenada> 
+        </coordenadas_inicio>
+        <referencias>
+            <referencia>https://es.wikiloc.com/rutas-senderismo/foces-del-raigosu-pr-as-290-142715472</referencia>
+            <referencia>https://culturalavianaturismo.blogspot.com/p/ruta-foces-del-raigosu_21.html</referencia>
+            <referencia>https://www.ayto-laviana.es/rutas-y-senderismo</referencia>
+        </referencias>
+        <hitos>
+            <hito nombre_hito="Zona de descanso en la Foz de Cebellales">
+                <descripcion_hito>Apartadero en el camino con varios bancos con mesa para descansar y disfrutar de la naturaleza. Aproximadamente en la mitad del camino</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.532799" latitud="43.180651" altitud="711"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="kilómetros">3.33</distancia> <!-- Distancia desde la salida -->
+                <fotos_hito>
+                    <foto>multimedia/imagenes/descanso.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Semitúnel de piedra">
+                <descripcion_hito>Pasadizo de piedra en medio del sendero con un semitúnel rocoso descubierto</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.530219" latitud="43.177587" altitud="817"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">800</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/semitunel.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Mirador sobre las casas del Raigosu">
+                <descripcion_hito>Mirador con vistas impresionantes del valle, situado en un desvío a escasos metros de las casas y cabañas del Raigosu</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.527284" latitud="43.176189" altitud="911"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="kilómetros">1.1</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/mirador_inter.jpg</foto>
+                    <foto>multimedia/imagenes/mirador.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Abrevadero para ganado">
+                <descripcion_hito>Pequeña fuente para el ganado, a mitad de la subida entre las cabañas del Raigosu y las cabañas de la Carba de Los Collaos</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.523808" latitud="43.173521" altitud="1039"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">950</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/abrevadero.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Cabañas de la Carba de Los Collaos">
+                <descripcion_hito>Cabañas de piedra a los pies de la Carba de Los Collaos</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.521102" latitud="43.173476" altitud="1125"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="kilómetros">1.3</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/carba.jpg</foto>
+                    <foto>multimedia/imagenes/señales.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Mirador en Los Collaos">
+                <descripcion_hito>Mirador en lo alto de la Carba de Los Collaos, con preciosas vistas del valle</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.521140" latitud="43.172491" altitud="1147"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">200</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/collaos.jpg</foto>
+                    <foto>multimedia/imagenes/collaos2.jpg</foto>
+                    <foto>multimedia/imagenes/collaos3.jpg</foto>
+                </fotos_hito>
+                <videos_hito>
+                    <video>multimedia/videos/foces.mp4</video>
+                </videos_hito>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta nombre="Ruta urbana: Evolución de Pola de Laviana" tipo_ruta="Arquitectura, monumentos, urbanismo y evolución" medio_transporte="A pie" duracion="2 horas" nivel_recomendacion="6">
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta por los edificios y obras arquitectónicas de mayor impacto cultural de Pola de Laviana</descripcion>
+        <personas_recomendadas>Para todos</personas_recomendadas>
+        <lugar_inicio>Edificio del antiguo ayuntamiento, Plaza de la Encarnación</lugar_inicio>
+        <direccion_inicio>Noroeste, Calle Emilio Martínez hacia Gran Teatro Maxi</direccion_inicio>
+        <coordenadas_inicio>
+            <coordenada longitud="-5.561762" latitud="43.246889" altitud="299"></coordenada> 
+        </coordenadas_inicio>
+        <referencias>
+            <referencia>https://culturalavianaturismo.blogspot.com/p/ruta-urbana_21.html</referencia>
+            <referencia>https://www.ayto-laviana.es/monumentos</referencia>
+            <referencia>https://www.rtpa.es/noticias-asturias:Visitantes-descubren-la-Ruta-Urbana-por-La-Pola-Llaviana_111439726547.html</referencia>
+        </referencias>
+        <hitos>
+            <hito nombre_hito="Edificio del antiguo ayuntamiento (Punto de salida)">
+                <descripcion_hito>Edificio reformado, situado en la Plaza de la Encarnación. Aún conserva el escudo de los León de Entralgo</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.561762" latitud="43.246889" altitud="299"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">0</distancia> <!-- Distancia desde la salida -->
+                <fotos_hito>
+                    <foto>multimedia/imagenes/antiguo_ayuntamiento.jpg</foto>
+                    <foto>multimedia/imagenes/antiguo_ayuntamiento2.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Gran Teatro Maxi">
+                <descripcion_hito>Teatro construido en la primera década del siglo XX. Estilo racionalista art-decó. Reinaugurado tras la Guerra Civil en el año 1943 con sala de baile y teatro, camerinos y equipo de proyección sonora. Cerró sus puertas en mayo de 1998 con la película Titanic</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.563103" latitud="43.248631" altitud="298"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">205</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/teatro.jpg</foto>
+                    <foto>multimedia/imagenes/teatro2.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Ayuntamiento de Laviana">
+                <descripcion_hito>Casa consistorial situada en la Plaza Palacio Valdés. De estilo Modernista, su construcción e inauguración datan de 1905. Aspecto elegante y color azul celeste, emulando el color de la bandera del concejo</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.563703" latitud="43.247119" altitud="293"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">208</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/ayuntamiento.jpg</foto>
+                    <foto>multimedia/imagenes/ayuntamiento2.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Iglesia de Santa María de la Asunción">
+                <descripcion_hito>Situada en la calle Leopoldo Alas Clarín y al final de la Avenida de La Constitución (la cual comunica con la Plaza Palacio Valdés, dónde se sitúa el ayuntamiento), es uno de los edificios más icónicos e impresionantes de la zona. Es el actual templo parroquial de Laviana</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.563087" latitud="43.245471" altitud="293"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">203</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/iglesia.jpg</foto>
+                    <foto>multimedia/imagenes/iglesia2.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Centro de Innovación y Desarrollo Alto Nalón (CIDAN)">
+                <descripcion_hito>El Centro de Innovación y Desarrollo del Alto Nalón (CIDAN) es un espacio municipal para el desarrollo de diferentes tipos de actividades lúdicas y culturales, situado junto a la Iglesia de Santa María de la Asunción y en el mismo bloque que el edificio de la Policía Local</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.562362" latitud="43.245401" altitud="297"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">60</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/cidan.jpg</foto>
+                    <foto>multimedia/imagenes/cidan2.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Plaza de la Pontona: Casa de Cultura y Biblioteca Pública Municipal">
+                <descripcion_hito>La Casa de Cultura de Laviana, situada en la Plaza de la Pontona, cuenta con la Biblioteca Pública Municipal, el Archivo Histórico de Laviana, Sala de Exposiciones y Salón de Actos</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.560710" latitud="43.246346" altitud="310"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">217</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/casa_de_cultura.jpg</foto>
+                </fotos_hito>
+            </hito>
+            <hito nombre_hito="Santuario de La Virgen del Otero">
+                <descripcion_hito>El Santuario de la Virgen del Otero está situado en la zona sureste de la villa de Laviana, colindante con el cementerio, tras una empinada cuesta. Es algo posterior al siglo XV, tiene planta de cruz latina, un interesante retablo barroco, una espadaña rematada con una cruz y un pórtico soportado por columnas toscanas</descripcion_hito>
+                <coordenadas_hito>
+                    <coordenada longitud="-5.558790" latitud="43.242723" altitud="318"></coordenada> 
+                </coordenadas_hito>
+                <distancia unidad="metros">512</distancia>
+                <fotos_hito>
+                    <foto>multimedia/imagenes/santuario.jpg</foto>
+                    <foto>multimedia/imagenes/santuario2.jpg</foto>
+                    <foto>multimedia/imagenes/santuario3.jpg</foto>
+                </fotos_hito>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>

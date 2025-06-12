@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="650" viewBox="0 -250 800 650">
+  <polyline points="50,399 50.00,349.09 166.67,350.00 283.33,328.67 400.00,286.91 516.67,87.22 633.33,59.08 750.00,50.00 750,399 50,399" style="fill:white;stroke:red;stroke-width:2" />
+  <circle cx="50.00" cy="349.09" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="56.00" y="341.09" transform="rotate(-80 50.00 349.09)" font-family="Arial" font-size="12" fill="black">Inicio: Ruta Senda Verde: El Sutu - La Vara</text>
+  <circle cx="166.67" cy="350.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="172.67" y="342.00" transform="rotate(-80 166.67 350.00)" font-family="Arial" font-size="12" fill="black">Puente de hierro del Sutu</text>
+  <circle cx="283.33" cy="328.67" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="289.33" y="320.67" transform="rotate(-80 283.33 328.67)" font-family="Arial" font-size="12" fill="black">Fuente Les Sinariegues</text>
+  <circle cx="400.00" cy="286.91" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="406.00" y="278.91" transform="rotate(-80 400.00 286.91)" font-family="Arial" font-size="12" fill="black">Mirador del Cantiquín</text>
+  <circle cx="516.67" cy="87.22" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="522.67" y="79.22" transform="rotate(-80 516.67 87.22)" font-family="Arial" font-size="12" fill="black">Cartel informativo: Senderos del carbón</text>
+  <circle cx="633.33" cy="59.08" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="639.33" y="51.08" transform="rotate(-80 633.33 59.08)" font-family="Arial" font-size="12" fill="black">Banco mirador del Pico de la Vara</text>
+  <circle cx="750.00" cy="50.00" r="4" fill="green" stroke="black" stroke-width="1" />
+  <text x="756.00" y="42.00" transform="rotate(-80 750.00 50.00)" font-family="Arial" font-size="12" fill="black">Pico de la Vara</text>
+  <line x1="50" y1="390.00" x2="750" y2="390.00" stroke="blue" stroke-width="1" stroke-dasharray="5,5" />
+</svg>

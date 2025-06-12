@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="lineaRoja">
+      <LineStyle><color>#ff0000ff</color><width>4</width></LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>Inicio: Ruta urbana: Evolución de Pola de Laviana</name>
+      <Point>
+        <coordinates>-5.561762,43.246889,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Edificio del antiguo ayuntamiento (Punto de salida)</name>
+      <Point>
+        <coordinates>-5.561762,43.246889,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Gran Teatro Maxi</name>
+      <Point>
+        <coordinates>-5.563103,43.248631,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Ayuntamiento de Laviana</name>
+      <Point>
+        <coordinates>-5.563703,43.247119,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Iglesia de Santa María de la Asunción</name>
+      <Point>
+        <coordinates>-5.563087,43.245471,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Centro de Innovación y Desarrollo Alto Nalón (CIDAN)</name>
+      <Point>
+        <coordinates>-5.562362,43.245401,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Plaza de la Pontona: Casa de Cultura y Biblioteca Pública Municipal</name>
+      <Point>
+        <coordinates>-5.560710,43.246346,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Santuario de La Virgen del Otero</name>
+      <Point>
+        <coordinates>-5.558790,43.242723,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Ruta urbana: Evolución de Pola de Laviana</name>
+      <styleUrl>#lineaRoja</styleUrl>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -5.561762,43.246889
+          -5.561762,43.246889
+          -5.563103,43.248631
+          -5.563703,43.247119
+          -5.563087,43.245471
+          -5.562362,43.245401
+          -5.560710,43.246346
+          -5.558790,43.242723
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>
