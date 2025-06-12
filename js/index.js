@@ -10,11 +10,11 @@ class Carrusel {
     // Función para obtener las fotos destinadas al carrusel de la carpeta multimedia>imágenes
     obtenerFotos() {
         return [
-            "../multimedia/imagenes/mapa_situacion.jpg",
-            "../multimedia/imagenes/cabañas.jpg",
-            "../multimedia/imagenes/paisaje.jpg",
-            "../multimedia/imagenes/pola.jpg",
-            "../multimedia/imagenes/bar.webp"
+            "multimedia/imagenes/mapa_situacion.jpg",
+            "multimedia/imagenes/cabañas.jpg",
+            "multimedia/imagenes/paisaje.jpg",
+            "multimedia/imagenes/pola.jpg",
+            "multimedia/imagenes/bar.webp"
         ];
     }
 
