@@ -22,7 +22,7 @@ header {
 
 /* Especificidad del selector: 003 */
 header>h1>a {
-    font-size: 3.5rem;
+    font-size: 2rem;
     text-decoration: none;
     color: #ffffff; /* Advertencia controlada: Color de fondo (background) heredado de header */
 }
@@ -37,6 +37,11 @@ nav>a {
 /* Especificidad del selector: 012 */
 nav>a:hover {
     text-decoration: underline;
+}
+
+/* Especificidad del selector: 002 */
+main h2 {
+    font-size: 1.5rem;
 }
 
 /* Especificidad del selector: 001 */
@@ -188,7 +193,7 @@ article {
 
 /* Especificidad del selector: 003 */
 section article img {
-    background-color: #cfd0a6;
+    background-color: #cfd0a6; /* Advertencia controlada: Color de fuente heredado de html */
     border: 0.2em solid #000000;
 }
 
@@ -206,6 +211,7 @@ button {
 /* Especificidad del selector: 002 */
 dialog button {
     color: #ffffff;
+    background-color: #2050a0;
     border-radius: 0.1rem;
 }
 
@@ -234,45 +240,22 @@ input {
     font-size: 1rem;
 }
 
-/* CONTINUAR */
+/* Reservas */
 
-
-/* Especificidad del selector: 002 */
-div~section {
-    border-radius: 1rem;
-}
-
-/* Especificidad del selector: 003 */
-div~section img {
-    transition: all 0.5s;
-    border-radius: 0.5rem;
-    box-shadow: none;
+/* Especificidad del selector: 001 */
+form {
+    border: 0.2rem solid #2050a0;
+    border-radius: 0.2rem;
 }
 
 /* Especificidad del selector: 001 */
 menu {
-    background-color: #ffffff; /* Advertencia controlada: Color de fuente heredado de html */
-    border: 0.2rem solid #000000;
+    border: 0.2rem solid #2050a0;
     border-radius: 0.2rem;
     list-style-type: none;
 }
 
-/* Especificidad del selector: 002 */
-menu li {
-    font-size: 1.1rem;
-}
-
-/* Especificidad del selector: 002 */
-main h2 {
-    font-size: 1.5rem;
-}
-
-/* Especificidad del selector: 004 */
-main button~section figure {
-    border: 0.3rem solid #000000;
-    border-radius: 0.3rem;
-    box-shadow: 0 0.5rem 0.5rem #000000a0;
-}
+/* Ayuda */
 
 /* Especificidad del selector: 001 */
 footer { 
@@ -280,26 +263,6 @@ footer {
     border-radius: 0.2rem;
     box-shadow: 0 0.5rem 0.5rem #000000a0;
     background-color: #e9e7ed; /* Advertencia controlada: Color de fuente heredado de html */
-}
-
-/* Especificidad del selector: 002 */
-main textarea {
-    font-size: 1.3rem;
-    border: 0.2rem solid #000000;
-    border-radius: 0.5rem;
-    resize: none;
-}
-
-/* Especificidad del selector: 002 */
-dialog button {
-    background-color: #2050a0; /* Advertencia controlada: Color de fuente heredado de html */
-}
-
-/* Especificidad del selector: 001 */
-form {
-    background-color: #ffffff; /* Advertencia controlada: Color de fuente heredado de html */
-    border: 0.2rem solid #b60000;
-    border-radius: 0.3rem;
 }
 
 /* 
@@ -317,22 +280,17 @@ form {
 
     /* Especificidad del selector: 003 */
     header>nav>a {
-        font-size: 1.3rem;
-    }
-
-    /* Especificidad del selector: 002 */
-    header>h1 {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     /* Especificidad del selector: 003 */
     section article h3 {  
-        font-size: 1.2rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 1.2rem;
     }
 
     /* Especificidad del selector: 003 */
     section article p {  
-        font-size: 1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 1rem;
     }
 }
 
@@ -346,12 +304,12 @@ form {
 
     /* Especificidad del selector: 003 */
     header>nav>a {
-        font-size: 1.0rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 0.8rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
     }
 
     /* Especificidad del selector: 002 */
     header>h1 {
-        font-size: 1.5rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 1rem;
     }
 
     /* Especificidad del selector: 003 */
@@ -375,7 +333,7 @@ form {
 
     /* Especificidad del selector: 003 */
     main section h2 {
-        font-size: 1.1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 1.1rem;
     }
 
     /* Especificidad del selector: 003 */
@@ -390,7 +348,7 @@ form {
     
     /* Especificidad del selector: 002 */
     header>h1 {
-        font-size: 1.1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 1.5rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
     }
 
     /* Especificidad del selector: 003 */
@@ -407,9 +365,14 @@ form {
 /* Movil L (425px) */
 @media screen and (max-width: 425px) {
 
+    /* Especificidad del selector: 002 */
+    main h2 {
+        font-size: 1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
     /* Especificidad del selector: 003 */
     main section h2 {
-        font-size: 1.0rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
     }
 
     /* Especificidad del selector: 003 */
@@ -425,6 +388,10 @@ form {
     /* Especificidad del selector: 002 */
     header>h1 {
         font-size: 1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    }
+
+    article {
+        font-size: 0.4rem;
     }
 }
 

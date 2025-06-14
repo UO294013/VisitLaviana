@@ -1,0 +1,25 @@
+estado_reserva,Activa
+estado_reserva,Cancelada
+estado_reserva,Finalizada
+tipo_recurso,Museo
+tipo_recurso,Ruta
+tipo_recurso,Hotel
+tipo_recurso,Restaurante
+tipo_recurso,Actividad
+tipo_recurso,Espectáculo
+recurso,1,Visita a la Casa natal de Armando Palacio Valdés,10,12.50,Visita a la casa-museo del novelista asturiano Armando Palacio Valdés
+recurso,3,Vacaciones en Hotel Restaurante Canzana,120,210.00,Hospedaje con pensión completa en el Hotel Restaurante Canzana
+recurso,6,Obra teatral en la Casa de Cultura,416,20.00,Espectáculo teatral en la Casa de Cultura de Pola de Laviana
+recurso,5,Alquiler de la Pista de Pádel,8,30.00,Alquiler de la pista cubierta polideportiva para jugar pádel con amigos
+recurso,4,Comida en La Casona de Entralgo,48,24.00,Comida en el restaurante La Casona de Entralgo, con un menú especial de temporada
+usuario,Vicente,Megido García,password1,email1@gmail.com,2025-06-10 16:48:21
+usuario,Claudia,Ortíz Vega,password2,email2@gmail.com,2025-02-22 21:33:59
+usuario,Rosa,López Álvarez,password3,email3@gmail.com,2025-04-24 11:06:04
+usuario,Pelayo,Díaz Martínez,password4,email4@gmail.com,2025-04-14 14:28:13
+usuario,Samira,Fernández Alonso,password5,email5@gmail.com,2025-03-30 08:05:49
+reserva,1,1,1,12.50,2025-12-01 12:00:00,2025-12-01 14:00:00
+reserva,1,5,1,24.00,2025-07-05 14:00:00,2025-07-05 16:30:00
+reserva,2,4,1,30.00,2025-09-22 14:30:00,2025-09-22 16:00:00
+reserva,3,2,1,210.00,2025-07-14 10:00:00,2025-07-21 12:00:00
+reserva,4,3,1,20.00,2025-10-01 20:00:00,2025-10-01 22:00:00
+reserva,5,5,1,24.00,2025-07-05 16:00:00,2025-07-05 19:00:00

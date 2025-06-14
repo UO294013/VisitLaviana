@@ -173,8 +173,8 @@ class Rutas {
         }
 
         // Nodo <referencias> y sus hijos <referencia>
+        this.generarEtiqueta(this.contenedor, "Referencias", "");
         const referencias = document.createElement("ul");
-        referencias.textContent = "Referencias: ";
         const refs = ruta.querySelectorAll("referencias>referencia");
         refs.forEach(referencia => {
             const li = document.createElement("li");
@@ -187,10 +187,9 @@ class Rutas {
         this.contenedor.appendChild(referencias);
 
         // Procesamiento de los hitos
+        this.generarEtiqueta(this.contenedor, "Hitos (puntos de interés en la ruta)", "");
         const hitos = document.createElement("ul");
-        hitos.textContent = "Hitos (puntos de interés en la ruta): ";
         const hitosList = ruta.querySelectorAll("hitos hito");
-
         hitosList.forEach(hito => {
             const li = document.createElement("li");
             const article = document.createElement("article");
