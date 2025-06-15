@@ -389,7 +389,7 @@ class Rutas {
         const file = e.target.files[0];
         if (file && file.type === "image/svg+xml") {
             const svg = document.querySelector("main>svg:nth-of-type(1)");
-            if (svg) svg.remove(); // Elimina el SVG previo si existe
+            if (svg) svg.remove();
             const reader = new FileReader();
             reader.onload = event => {
                 const main = document.querySelector("main");
@@ -401,7 +401,7 @@ class Rutas {
                 if (!viewBox) {
                     const width = svgElement.getAttribute("width");
                     const height = svgElement.getAttribute("height");
-                    svgElement.setAttribute("viewBox", `0 0 ${width} ${height}`); /* Este atributo es necesario para redimensionar el SVG */
+                    svgElement.setAttribute("viewBox", `0 0 ${width} ${height}`); // Este atributo es necesario para redimensionar el SVG
                 }
                 main.appendChild(svgElement);
             };

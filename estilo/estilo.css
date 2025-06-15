@@ -94,6 +94,7 @@ video {
     box-shadow: 0 0.5rem 0.5rem #000000a0;
 }
 
+/* Especificidad del selector: 001 */
 figcaption {
     font-size: 0.9rem;
 }
@@ -352,13 +353,13 @@ footer {
     }
 
     /* Especificidad del selector: 003 */
-    section article h3 {  
-        font-size: 1em; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+    section article h3, section article h4 {  
+        font-size: 0.8rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
     }
 
     /* Especificidad del selector: 003 */
     section article p {  
-        font-size: 0.8em; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
+        font-size: 0.7rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
     }
 }
 
@@ -390,6 +391,7 @@ footer {
         font-size: 1rem; /* Advertencia controlada: Redefinición de propiedad para preservar la adaptabilidad */
     }
 
+    /* Especificidad del selector: 001 */
     article {
         font-size: 0.4rem;
     }
