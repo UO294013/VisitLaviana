@@ -58,12 +58,16 @@
                 En esta parte de la web podrás consultar información acerca de las rutas turísticas que se pueden
                 realizar por el concejo de Laviana. La web te permite consultar información contenida en archivos
                 con un formato XML concreto (como ejemplo está el archivo "rutas.xml" en el directorio "/xml" en
-                la raíz del proyecto, que contiene 3 recorridos de diversos tipos por el concejo). También puedes
-                subir archivos en formato KML para consultar el recorrido de las rutas plasmadas sobre un mapa
-                (como ejemplo se proporcionan los archivos "ruta1.kml", "ruta2.kml" y "ruta3.kml" en el mismo 
-                directorio "/xml"), o consultar el recorrido de las rutas en un formato altimétrico, que te
+                la raíz del proyecto, que contiene 3 recorridos de diversos tipos por el concejo). La carga de
+                este archivo te permite consultar información acerca de algunas de las rutas que puedes realizar
+                en el concejo, como el punto de salida, la duración y dificultad de la ruta, algunos de los puntos
+                de interés por los que pasa o recomendaciones y otros detalles. También puedes subir archivos en
+                formato KML para consultar el recorrido de las rutas plasmadas sobre un mapa (como ejemplo se
+                proporcionan los archivos "ruta1.kml", "ruta2.kml" y "ruta3.kml" en el mismo directorio "/xml").
+                Por último, se puede consultar el recorrido de las rutas en un formato altimétrico, que te
                 permite ver la diferencia de altitud de cada punto de interés del recorrido en escala y su
-                distancia respecto al nivel del mar.
+                distancia respecto al nivel del mar, mediante la carga de los archivos SVG "ruta1.svg", "ruta2.svg"
+                y "ruta3.svg".
             </p>
         </section>
         <section>
@@ -71,8 +75,9 @@
             <p>
                 En la sección de meteorología podrás consultar el estado del tiempo en el concejo de Laviana (más
                 concretamente en su capital, Pola de Laviana) de forma detallada, así como el pronóstico de carácter
-                general para los próximos días. La información se obtiene de un servicio externo, por lo que
-                puede variar en función de la disponibilidad del mismo.
+                general para los próximos días. La información se obtiene de un servicio externo, por lo que puede
+                variar en función de la disponibilidad del mismo, o incluso no estar disponible o presentar errores
+                de formato o inconsistencias.
             </p>
         </section>
         <section>
@@ -90,7 +95,17 @@
         <section>
             <h3>Reservas</h3>
             <p>
-                En proceso.
+                En la sección de reservas podrás simular la realización de reservas para obtener acceso a ciertos recursos
+                turísticos en el concejo de Laviana. Previamente es necesario que te registres como usuario, mediante un
+                formulario de rápida cumplimentación. Una vez registrado, podrás iniciar sesión con tu correo y contraseña,
+                permitiéndote así acceder al portal de reservas. Desde este portal podrás consultar los recursos
+                turísticos disponibles, así como realizar reservas para los mismos. Las reservas se realizan mediante un
+                formulario que te permite seleccionar el recurso turístico que deseas reservar y la fecha de la reserva.
+                Una vez realizada la reserva, podrás consultar el estado de la misma y cancelarla si lo deseas desde la
+                sección "Mis reservas". Experimentalmente, se ha dejado disponible un botón de reinicio de la base de datos,
+                que te permite reiniciar la base de datos de reservas y usuarios, eliminando todas las reservas y usuarios
+                registrados y devolviendo la base de datos a su estado inicial. Este botón no estaría disponible en el
+                entorno de producción.
             </p>
         </section>
         <footer>
